@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# NeuroQuant
 
-## Project info
+Welcome to NeuroQuant — Your Intelligent Investment Partner. At NeuroQuant, we blend smart technology with expert financial strategies to help you grow and manage your wealth effortlessly.
 
-**URL**: https://lovable.dev/projects/3ca6fff4-09dd-43a5-b9df-e548af748f4c
+## About
 
-## How can I edit this code?
+NeuroQuant is a modern investment platform that combines cutting-edge technology with traditional financial wisdom. Our platform offers:
 
-There are several ways of editing your application.
+- Smart portfolio management
+- AI-driven investment recommendations
+- Real-time market analysis
+- Secure user authentication
+- Responsive web interface
 
-**Use Lovable**
+## Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3ca6fff4-09dd-43a5-b9df-e548af748f4c) and start prompting.
+- Frontend: React.js with TypeScript
+- Backend: Spring Boot
+- Authentication: OAuth2 with Google
+- Database: PostgreSQL
+- UI Framework: Material-UI
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 16+
+- Java 17+
+- Maven
+- PostgreSQL
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/SuyogMagar/NeuroQuant.git
+cd NeuroQuant
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Set up environment variables:
+Create a `.env` file in the root directory and add:
+```
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Start the backend:
+```bash
+cd backend
+mvn spring-boot:run
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the frontend:
+```bash
+cd frontend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## What technologies are used for this project?
+## Contact
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3ca6fff4-09dd-43a5-b9df-e548af748f4c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Suyog Magar - hkmagar11@gmail.com
